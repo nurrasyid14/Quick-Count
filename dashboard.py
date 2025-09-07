@@ -4,8 +4,8 @@ import tempfile
 from quick_counter import QuickCountAnalyzer
 
 # --- Konfigurasi halaman ---
-st.set_page_config(page_title="Dashboard Quick Count Nganjuk", layout="wide")
-st.title("Dashboard Quick Count Pilkada Nganjuk")
+st.set_page_config(page_title="Dashboard Quick Count", layout="wide")
+st.title("Dashboard Quick Count")
 
 # --- Upload file ---
 uploaded_file = st.file_uploader("Upload Data Quick Count (CSV atau Excel)", type=["csv", "xlsx"])
